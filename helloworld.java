@@ -27,7 +27,7 @@ public class QuickSort {
 	}
 	}
 	public static void main(String args[]) {
-		int a[]={4,9,6,5,8,7,10,3,2,1};
+		int a[]={4,9,6,5,8,7,10,3,2,1,0,11};
 		quickSort(a,0,a.length-1);
 		for(int i=0;i<a.length;i++) {
 			System.out.print(a[i]+" ");
